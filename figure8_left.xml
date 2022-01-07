@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moleculeList id="molSet1" convention="nano:material" xmlns="http://www.xml-cml.org/schema" xmlns:nano="http://linkedchemistry.org/nano#">
+  <!-- InChI=0.00.1A/Au/msh/s2t-9!O2Si/c1-3-2/msp/s20d-9/k000/y2&1 -->
+  <molecule id="m1">
+    <atomArray>
+      <atom id="a1" elementType="O" formalCharge="0" hydrogenCount="0"/>
+      <atom id="a2" elementType="Si" formalCharge="0" hydrogenCount="0"/>
+      <atom id="a3" elementType="O" formalCharge="0" hydrogenCount="0"/>
+    </atomArray>
+    <bondArray>
+      <bond id="b1" atomRefs2="a1 a2" order="D"/>
+      <bond id="b2" atomRefs2="a2 a3" order="D"/>
+    </bondArray>
+    <scalar dictRef="nano:order" dataType="xsd:string">1</scalar>
+    <scalar dictRef="nano:morphology" dataType="xsd:string">SPHERE</scalar>
+    <scalar dictRef="nano:spacegroup" dataType="xsd:string">AMORPHOUS</scalar>
+    <property dictRef="pato:0001334" xmlns:pato="http://purl.org/obo/owl/PATO#">
+      <scalar units="ops:Nanometer" dataType="xsd:double" xmlns:ops="http://www.openphacts.org/units/">20.0</scalar>
+    </property>
+  </molecule>
+  <molecule id="m2">
+    <atomArray>
+      <atom id="a4" elementType="Au" formalCharge="0" hydrogenCount="0"/>
+    </atomArray>
+    <scalar dictRef="nano:order" dataType="xsd:string">2</scalar>
+    <scalar dictRef="nano:morphology" dataType="xsd:string">SHELL</scalar>
+    <property dictRef="pato:0000915" xmlns:pato="http://purl.org/obo/owl/PATO#">
+      <scalar units="ops:Nanometer" dataType="xsd:double" xmlns:ops="http://www.openphacts.org/units/">2.0</scalar>
+    </property>
+  </molecule>
+  <name>silica nanoparticles with gold coating</name>
+  <scalar dictRef="nano:type" dataType="xsd:string">METALOXIDE</scalar>
+</moleculeList>
