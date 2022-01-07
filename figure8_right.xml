@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moleculeList id="molSet1" convention="nano:material" xmlns="http://www.xml-cml.org/schema" xmlns:nano="http://linkedchemistry.org/nano#">
+  <!-- InChI=0.00.1A/Au/msp/s20d-9!C19H42N.BrH/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(2,3)4;/h5-19H2,1-4H3;1H/q+1;/p-1/y1&2 -->
+  <molecule id="m1">
+    <atomArray>
+      <atom id="a1" elementType="Au" formalCharge="0" hydrogenCount="0"/>
+    </atomArray>
+    <scalar dictRef="nano:order" dataType="xsd:string">1</scalar>
+    <scalar dictRef="nano:morphology" dataType="xsd:string">SPHERE</scalar>
+    <property dictRef="pato:0001334" xmlns:pato="http://purl.org/obo/owl/PATO#">
+      <scalar units="ops:Nanometer" dataType="xsd:double" xmlns:ops="http://www.openphacts.org/units/">20.0</scalar>
+    </property>
+  </molecule>
+  <molecule id="m2">
+    <atomArray>
+      <atom id="a2" elementType="C" formalCharge="0" hydrogenCount="3"/>
+      <atom id="a3" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a4" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a5" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a6" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a7" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a8" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a9" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a10" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a11" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a12" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a13" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a14" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a15" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a16" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a17" elementType="C" formalCharge="0" hydrogenCount="2"/>
+      <atom id="a18" elementType="N" formalCharge="1" hydrogenCount="0"/>
+      <atom id="a19" elementType="C" formalCharge="0" hydrogenCount="3"/>
+      <atom id="a20" elementType="C" formalCharge="0" hydrogenCount="3"/>
+      <atom id="a21" elementType="C" formalCharge="0" hydrogenCount="3"/>
+      <atom id="a22" elementType="Br" formalCharge="-1" hydrogenCount="0"/>
+    </atomArray>
+    <bondArray>
+      <bond id="b1" atomRefs2="a2 a3" order="S"/>
+      <bond id="b2" atomRefs2="a3 a4" order="S"/>
+      <bond id="b3" atomRefs2="a4 a5" order="S"/>
+      <bond id="b4" atomRefs2="a5 a6" order="S"/>
+      <bond id="b5" atomRefs2="a6 a7" order="S"/>
+      <bond id="b6" atomRefs2="a7 a8" order="S"/>
+      <bond id="b7" atomRefs2="a8 a9" order="S"/>
+      <bond id="b8" atomRefs2="a9 a10" order="S"/>
+      <bond id="b9" atomRefs2="a10 a11" order="S"/>
+      <bond id="b10" atomRefs2="a11 a12" order="S"/>
+      <bond id="b11" atomRefs2="a12 a13" order="S"/>
+      <bond id="b12" atomRefs2="a13 a14" order="S"/>
+      <bond id="b13" atomRefs2="a14 a15" order="S"/>
+      <bond id="b14" atomRefs2="a15 a16" order="S"/>
+      <bond id="b15" atomRefs2="a16 a17" order="S"/>
+      <bond id="b16" atomRefs2="a17 a18" order="S"/>
+      <bond id="b17" atomRefs2="a18 a19" order="S"/>
+      <bond id="b18" atomRefs2="a18 a20" order="S"/>
+      <bond id="b19" atomRefs2="a18 a21" order="S"/>
+    </bondArray>
+    <scalar dictRef="nano:order" dataType="xsd:string">2</scalar>
+  </molecule>
+  <name>gold nanoparticle with organic coating</name>
+  <scalar dictRef="nano:type" dataType="xsd:string">METALOXIDE</scalar>
+</moleculeList>
